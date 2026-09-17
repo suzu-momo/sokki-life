@@ -193,10 +193,6 @@ footer {
 
     /* ヘッダー */
 
-    body ｛
-    　　padding : 0px 0px 0px 0px;
-    }
-
     .header {
         padding: 12px 20px;
         display: block;
@@ -248,18 +244,27 @@ footer {
     /* お問い合わせバー */
 
     .orange-bar {
-        width: 100%;
-        padding: 10px 15px;
+        width: 85%;
+        padding: 12px 10px;
         font-size: 14px;
-        white-space: nowrap;
+        white-space: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
     }
 
     .bar-text {
-        margin-right: 8px;
+        margin-right: 0px;
     }
 
     .bar-tel i {
         margin-right: 4px;
+    }
+
+    .bar-tel {
+        font-size: 16px;
+        font-weight: bold;
     }
 
 
