@@ -194,8 +194,9 @@ footer {
     /* ヘッダー */
 
     body ｛
-    　　padding : 0px 0px;
-    
+    　　padding : 0px 0px 0px 0px;
+    }
+
     .header {
         padding: 12px 20px;
         display: block;
