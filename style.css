@@ -12,7 +12,6 @@ body {
 }
 
 .header {
-    background-color: #f93f;
     position: absolute;
     top: 0;
     left: 0;
@@ -36,7 +35,7 @@ body {
 
 
 .header p {
-    color: #ffffff;
+    color: #f93f;
     margin-left: 40px;
     font-weight: bold;
 }
